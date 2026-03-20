@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>My Poertfolio</title>
+</head>
+<style>
+    body{
+        
+        background-color: #000000;
+    }
+    nav{
+        margin: 0;
+        padding: 0;
+        background-color: #000000;
+        padding: 20px;
+        display: block;
+        border-style: solid;
+        border-color: #ff6a00;
+        border-width: 1px;
+    }   
+    nav ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: end;
+    }
+    nav ul li{
+        margin-right: 20px;
+    }
+    nav ul li a{
+        background-color: black;
+        color: #fff;
+        text-decoration: none;
+        font-size: 25px;
+        padding: 14px 25px;
+        border-radius: 10px;
+    
+    }
+    nav ul li a:hover{
+        background-color: #ff6a00;
+        color: #000;
+    }
+  .welcome{
+    color: #ffffff;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 100px;
+    margin-left: 80px;
+    justify-content: end;
+    align-items: end;
+    text-align: start;
+
+}
+.welcome button{
+    margin-top: 20px;
+    padding: 15px 20px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: #000;
+    border: none;
+}
+.welcome button:hover{
+    background-color: #ff6a00;
+    color: #000;
+    cursor: pointer;
+}
+.social{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.social-icons{
+    display: flex;
+    gap: 20px;
+}
+.social-icons a{
+    color: #fff;
+    font-size: 25px;
+    text-decoration: none;
+}
+.social-icons a:hover{
+    color: #ff6a00;
+}
+.card{
+    width: 300px;
+    height: 350px;
+    background-color: #ffffff;
+    margin-top: 50px;
+    margin-left: 80px;
+    border-radius: 20px;
+    transition: width 2s;
+    border-style: solid;
+    border-color: #ff6a00;
+}
+.container{
+    display: flex;          
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    margin: auto;
+    margin-right: 60px;
+    
+}
+.card p{
+    size: 10px;
+    margin: auto;
+    font-size: 14px;
+    
+    
+
+}
+.card:hover{
+    width: 100%;
+}
+.footer{
+    text-align: start;
+    height: 350px;
+    width:100%;
+    border-style: solid;
+    border-color: #ff6a00;
+    display: flex;
+    gap: 10px;
+}
+.foot{
+    width: 400px;
+}
+.foot h1{
+    margin-left: 20px;
+    font-size: 30px;
+    color: #ff6a00;
+    text-decoration: underline;
+}
+.foot h2{
+    margin-left: 20px;
+    color: #ffffff;
+    font-size: 14px;
+}
+.foot ul{
+    
+    color: #ffffff;
+}
+.foot li{
+    margin-bottom: 10px;
+}
+    </style>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+<body>
+    <div class="welcome">
+      <h1>HI THERE!!!</h1>
+      <p>I AM FREELANCER</p>
+      <p>WE ARE DOING WEB DEVELOPMENT AS A FREELANCER</p>
+      <button>Explore My Work</button>
+    </div>
+<div class="social">
+   <div class="social-icons">
+    <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.github.com/"><i class="fab fa-github"></i></a>
+    <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+    <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+</div>
+</div>
+
+<div class="container">
+      <div class="card">
+        <h1>HAB(Hospital Managements System)</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quia repellat voluptatum alias voluptatibus minus animi temporibus necessitatibus, hic recusandae, expedita dignissimos laborum tempora praesentium nisi quam, quisquam placeat quibusdam!</p>
+      </div>
+      <div class="card">
+        <h1>EMS(Employee managements System)</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores dicta ratione expedita fugit facilis. Hic rem iusto nostrum quas. Commodi laborum aliquid alias soluta consequatur magnam omnis explicabo nemo debitis.</p>
+      </div>
+      <div class="card">
+        <h1>JOB PORTAL</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus nobis est doloremque nisi. Quasi libero culpa doloribus numquam. Non dolores cupiditate perferendis quaerat at nulla omnis ab ullam tenetur maiores.</p>
+      </div>
+</div><br><br>
+<div class="footer">
+    <div class="foot">
+       <h1>Contacts Us</h1>
+       <h2>Phone Number:+91 8925368848</h2>
+       <h2>Gmail: flaskfreelancer@gmail.com</h2>
+    </div>
+            <div class="foot">
+                <h1>OUR SERVICES</h1>
+                    <ul style="list-style-type: square;">
+                      <li>Custom Websites Designing</li>
+                      <li>Dynamic&Static Websites</li>
+                      <li>Domain&Hosting</li>
+                      <li>WebApplications</li>
+                    </ul>
+
+            </div>
+
+</div>
+
+    
+</body>
+    
+</html>
